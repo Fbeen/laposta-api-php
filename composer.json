@@ -1,0 +1,24 @@
+{
+    "name": "fbeen/laposta-api-php",
+    "type": "library",
+    "description": "Laposta api, free api to laposta.nl",
+    "keywords": ["mailing","mailer","newsletter","api"],
+    "homepage": "http://laposta.nl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stijn van der Ree",
+            "email": "stijn@laposta.nl"
+        },
+        {
+            "name": "Frank Beentjes",
+            "email": "frankbeen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "files": ["lib/laposta.php"]
+    }
+}
